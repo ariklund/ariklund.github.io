@@ -1,7 +1,7 @@
 
 
 h1 {
-	color: #339966;
+	color: #ccffff;
 	font: 40px helvetica;
 	text-align:center;
 }
@@ -11,36 +11,81 @@ h2 {
 	text-align: center;
 }
 
-
-
-div.rutan {
-	background-color: lightblue;
-	padding-right: 20px;
-	padding-right: 20px;
-}
-
 body {
     background-color: white;
 }
 
 p {
 	font: 15px helvetica;
+	margin: 10%;
 }
+
+
 
 .img-circle {
 	display: block;
 	margin-left: auto;
     margin-right:auto;
     border-radius: 50%;
-    width: 70%;
-  
+    width: 50%;  
+}
+
+div.rundbild {
+	display: block;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+/* unvisited link */
+a:link {
+    color: #006666;
+}
+
+/* visited link */
+a:visited {
+    color: #006666;
+}
+
+/* mouse over link */
+a:hover {
+    color: #006666;
+}
+
+/* selected link */
+a:active {
+    color: #006666;
 }
 
 .img-work {
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+	width: 70%;
 }
+
+div.rutan {
+	background-color: lightblue;
+	margin:10%
+	margin-bottom:30px;
+	padding-top: 10px;
+}
+
+div.jobben {
+	background-color: grey;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+div.upptill {
+	background-color: grey;
+	margin:10%
+	margin-bottom:130px;
+	padding-top: 50px;
+}
+
+div.ommig {
+	padding-bottom: 20px;
+	padding-top:10px;
+}
+
 
 @media only screen and (min-width: 760px) {.description-block {
 	width: 50%;
