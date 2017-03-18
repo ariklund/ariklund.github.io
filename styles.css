@@ -65,10 +65,11 @@ a:link, a:visited {
     text-align: center; 
     text-decoration: none;
     display: inline-block;
+    float:left;
 }
 
 .img-work {
-	width: 80%;
+	width: 90%;
 }
 
 div.rutan {
