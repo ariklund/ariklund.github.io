@@ -1,21 +1,45 @@
 
 
 h1 {
-	color: #ff9999;
-	font: 40px helvetica, sans-serif;
+	color: #339966;
+	font: 40px helvetica;
+	text-align:center;
 }
-.responsive-image {
-	width: 100%;
+
+h2 {
+	font: 20px helvetica;
+	text-align: center;
+}
+
+
+
+div.rutan {
+	background-color: lightblue;
+	padding-right: 20px;
+	padding-right: 20px;
+}
+
+body {
+    background-color: white;
 }
 
 p {
-	font: 25px helvetica
+	font: 15px helvetica;
 }
 
-img {
-    border-radius: 50px;
-    max-width: 100%;
-    height: auto;
+.img-circle {
+	display: block;
+	margin-left: auto;
+    margin-right:auto;
+    border-radius: 50%;
+    width: 70%;
+  
+}
+
+.img-work {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 @media only screen and (min-width: 760px) {.description-block {
