@@ -29,31 +29,23 @@ p {
 	margin-left: auto;
     margin-right:auto;
     border-radius: 50%;
-    width: 50%;  
+    width: 80%;  
 }
 
 div.rundbild {
 	display: block;
 	padding-left: auto;
 	padding-right: auto;
-}
-
-.insta {
-	width: auto;
-	height: 20px;
+	width: 100%;
 }
 
 .img-work {
-	width: 90%;
+	display: block;
+	margin-left: auto;
+    margin-right:auto;
+	width: 100%;
 }
 
-div.rutan {
-	background-color: lightblue;
-	margin:10%
-	margin-bottom:30px;
-	padding-left: 20px;
-	padding-top: 10px;
-}
 
 div.jobben {
 	background-color: lightgrey;
@@ -74,6 +66,21 @@ div.ommig {
 	padding-bottom: 20px;
 }
 
+div.rutan {
+	background-color: lightblue;
+	margin:10%
+	margin-bottom:30px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.insta {
+	display:block;
+	width: auto;
+	height: 60px;
+	margin-left: auto;
+    margin-right:auto;
+}
 
 @media only screen and (min-width: 760px) {.description-block {
 	width: 50%;
