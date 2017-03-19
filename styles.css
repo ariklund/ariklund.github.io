@@ -1,25 +1,26 @@
 
 
 h1 {
-	color: #ccffff;
-	font: 40px times;
+	font-family: 'Merriweather', serif, 80px;
 	text-align:center;
 }
 
 h2 {
-	font: 20px times;
+	font: 25px times;
 	text-align: center;
 }
 
 h3 {
+	font: 25px times;
 	text-align: left;
+	font:bold;
 }
 body {
     background-color: white;
 }
 
 p {
-	font: 15px times;
+	font: 18px times;
 }
 
 
@@ -55,6 +56,7 @@ div.jobben {
 
 div.upptill {
 	background-color: lightgrey;
+	padding-top: 30px;
 }
 
 div.ommig {
