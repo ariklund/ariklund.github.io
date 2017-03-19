@@ -29,7 +29,7 @@ p {
 	margin-left: auto;
     margin-right:auto;
     border-radius: 50%;
-    width: 80%;  
+    width: 200px;  
 }
 
 div.rundbild {
@@ -40,28 +40,25 @@ div.rundbild {
 }
 
 .img-work {
-	display: block;
-	margin-left: auto;
-    margin-right:auto;
-	width: 100%;
+	width: 500px;
+	width: 90%;
 }
 
 
 div.jobben {
 	background-color: lightgrey;
 	text-align: left;
-	padding-left: 20px;
+	padding-left: 30px;
 	padding-top: 30px;
 	padding-bottom: 20px;
 }
 
 div.upptill {
 	background-color: lightgrey;
-	padding-left: 20px;
 }
 
 div.ommig {
-	padding-left: 20px;
+	padding-left: 30px;
 	padding-top: 30px;
 	padding-bottom: 20px;
 }
